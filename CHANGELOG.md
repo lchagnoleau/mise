@@ -1,5 +1,31 @@
 # Changelog
 
+## [2026.1.11](https://github.com/jdx/mise/compare/v2026.1.10..v2026.1.11) - 2026-01-30
+
+### 🐛 Bug Fixes
+
+- **(github)** support macOS .app bundle binary discovery by @jdx in [#7885](https://github.com/jdx/mise/pull/7885)
+- **(prepare)** scope prepare providers to their defining config file by @jdx in [#7889](https://github.com/jdx/mise/pull/7889)
+- **(registry)** update daytona asset pattern for new release naming by @jdx in [#7897](https://github.com/jdx/mise/pull/7897)
+- **(run)** show task info instead of executing when --help used without usage spec by @jdx in [#7893](https://github.com/jdx/mise/pull/7893)
+- **(task)** fix wait_for with env overrides and re-render outputs by @jdx in [#7888](https://github.com/jdx/mise/pull/7888)
+
+### ⚡ Performance
+
+- **(exec)** reduce startup overhead for `mise x` by @jdx in [#7890](https://github.com/jdx/mise/pull/7890)
+- **(install)** replace per-tool .mise.backend with consolidated manifest by @jdx in [#7892](https://github.com/jdx/mise/pull/7892)
+
+### 📦️ Dependency Updates
+
+- update docker/login-action digest to c94ce9f by @renovate[bot] in [#7899](https://github.com/jdx/mise/pull/7899)
+- update alpine:edge docker digest to 9a341ff by @renovate[bot] in [#7898](https://github.com/jdx/mise/pull/7898)
+- update ghcr.io/jdx/mise:alpine docker digest to 3a67fe5 by @renovate[bot] in [#7900](https://github.com/jdx/mise/pull/7900)
+- update ghcr.io/jdx/mise:copr docker digest to 4dc8174 by @renovate[bot] in [#7901](https://github.com/jdx/mise/pull/7901)
+
+### Chore
+
+- **(ci)** only auto-merge release PRs with substantive changes by @jdx in [#7884](https://github.com/jdx/mise/pull/7884)
+
 ## [2026.1.9](https://github.com/jdx/mise/compare/v2026.1.8..v2026.1.9) - 2026-01-28
 
 ### 🚀 Features
